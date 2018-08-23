@@ -46,7 +46,7 @@ mkdir 1024
 convert "*.jpg[1024x>]" -set filename:base "%[base]" "1024/%[filename:base].jpg"
 ```
 
-The project use [Sacred](http://sacred.readthedocs.io) to organize the
+The project uses [Sacred](http://sacred.readthedocs.io) to organize the
 experiments. The main script for training is in the `train.py` file. Check the
 available settings by running `python3 train.py print_config`.
 
