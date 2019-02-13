@@ -31,6 +31,7 @@ This project contains the source code of all experiments described in
 1. Install OpenCV with `pip3 install opencv-python`.
 2. Run `pip3 install -r requirements.txt`.
 3. Download data from [ISIC 2017: Skin Lesion Analysis Towards Melanoma Detection](https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a).
+   - Data should be downloaded from the three phases of 'Part 3: Lesion Classification' ([training](https://challenge.kitware.com/#phase/5840f53ccad3a51cc66c8dab), [validation](https://challenge.kitware.com/#phase/584b0afacad3a51cc66c8e33), [testing](https://challenge.kitware.com/#phase/584b0afccad3a51cc66c8e38). Registration is required.
 
 
 ## Train
