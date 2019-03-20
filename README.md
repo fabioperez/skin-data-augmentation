@@ -171,3 +171,18 @@ TRAIN_ROOT=datasets/ISIC-2017_Training_Data_1024
 TRAIN_CSV=datasets/ISIC-2017_Training_Part3_GroundTruth.csv
 ./experiments/run-mix-lesions.sh
 ```
+
+## Cite
+
+If you use this code, please cite us:
+
+```
+@incollection{perez2018data,
+  title={Data augmentation for skin lesion analysis},
+  author={Perez, F{\'a}bio and Vasconcelos, Cristina and Avila, Sandra and Valle, Eduardo},
+  booktitle={OR 2.0 Context-Aware Operating Theaters, Computer Assisted Robotic Endoscopy, Clinical Image-Based Procedures, and Skin Image Analysis},
+  pages={303--311},
+  year={2018},
+  publisher={Springer}
+}
+```
