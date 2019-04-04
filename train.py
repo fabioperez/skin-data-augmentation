@@ -62,6 +62,7 @@ def cfg():
         'random_erasing': False,  # Random Erasing
         'piecewise_affine': False,  # Piecewise Affine
         'tps': False,  # TPS Affine
+        'autoaugment': False # AutoAugmentation
     }
 
 

@@ -10,6 +10,7 @@ from torchvision import transforms
 
 from .tps.tps_warp import tps_warp
 from .inception_crop import InceptionCrop
+from .autoaugment import ImageNetPolicy
 
 
 def set_seeds(worker_id):
@@ -93,6 +94,8 @@ class Augmentations:
                 augs['size'], scale=(0.4, 1.0)))
         else:
             tf_list.append(transforms.Resize((augs['size'], augs['size'])))
+        if augs['autoaugment']:
+            tf_list.append(ImageNetPolicy())
         tf_list.append(lambda x: np.array(x))
         if augs['random_erasing']:
             tf_list.append(RandomErasing(sh=0.3))
